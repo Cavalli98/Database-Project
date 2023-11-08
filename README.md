@@ -17,7 +17,7 @@ https://lavineria.000webhostapp.com/
 
 La cartella principale 'Database Project' contiene, oltre ai file del progetto, anche il database da utilizzare;
 
-Gli unici valori da cambiare in teoria sono nel file 'connect.php', il quale contiene la variabile di connessione tramite metodo procedurale (mysqli_connect(...));
+Gli unici valori da cambiare sono nel file 'connect.php', il quale contiene la variabile di connessione tramite metodo procedurale (mysqli_connect(...));
 
 Uso del sistema con server locale:
 1) tramite il browser accedere al file 'index.php' dentro la cartella 'Database Project';
