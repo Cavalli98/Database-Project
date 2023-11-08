@@ -1,5 +1,6 @@
 PROGETTO WEB DI GESTIONE DI AZIENDA VINICOLA
 -------------------------------------------------
+
 Software and Programming language used:
 - Atom
 - XAMPP
@@ -11,8 +12,10 @@ Software and Programming language used:
 - SQL
 
 -------------------------------------------------
+
 Il sistema è presente anche alla pagina (not available anymore):
 https://lavineria.000webhostapp.com/
+
 -------------------------------------------------
 
 La cartella principale 'Database Project' contiene, oltre ai file del progetto, anche il database da utilizzare;
