@@ -1,27 +1,23 @@
 PROGETTO WEB DI GESTIONE DI AZIENDA VINICOLA
 -------------------------------------------------
-Software e linguaggi utilizzati:
+Software and Programming language used:
 -Atom
 -XAMPP
 -MySQL
 -000webhost
-
 -HTML
 -CSS
 -PHP
 -SQL
 
 -------------------------------------------------
-Il sistema è presente anche alla pagina:
+Il sistema è presente anche alla pagina (not available anymore):
 https://lavineria.000webhostapp.com/
 -------------------------------------------------
 
-La cartella principale 'Database Project' contiene, oltre ai file del progetto,
-anche il database da utilizzare;
+La cartella principale 'Database Project' contiene, oltre ai file del progetto, anche il database da utilizzare;
 
-Gli unici valori da cambiare in teoria dovrebbero essere nel file 'connect.php', il quale
-contiene la variabile di connessione tramite metodo procedurale (mysqli_connect(...));
-
+Gli unici valori da cambiare in teoria sono nel file 'connect.php', il quale contiene la variabile di connessione tramite metodo procedurale (mysqli_connect(...));
 
 Uso del sistema con server locale:
 1) tramite il browser accedere al file 'index.php' dentro la cartella 'Database Project';
