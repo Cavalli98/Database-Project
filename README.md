@@ -1,14 +1,14 @@
 PROGETTO WEB DI GESTIONE DI AZIENDA VINICOLA
 -------------------------------------------------
 Software and Programming language used:
--Atom
--XAMPP
--MySQL
--000webhost
--HTML
--CSS
--PHP
--SQL
+- Atom
+- XAMPP
+- MySQL
+- 000webhost
+- HTML
+- CSS
+- PHP
+- SQL
 
 -------------------------------------------------
 Il sistema è presente anche alla pagina (not available anymore):
