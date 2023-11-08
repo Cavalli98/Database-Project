@@ -26,7 +26,7 @@ Uso del sistema con server locale:
 1) tramite il browser accedere al file 'index.php' dentro la cartella 'Database Project';
 2) eseguire l'accesso tramite username e password o iscriversi al sito.
    Ci sono già alcuni utenti predefiniti nel sistema, fra cui:
-   username: stefano.cagnoni@unipr.it passw: basididati;
+   username: prova@finale.it passw: provafinale;
 3) Una volta arrivati nella pagina principale del client, si può:
    -cercare i vini per nome, per nome e anno, per anno (inserendo nel nome 'all'), 
     oppure vedere tutto il catalogo inserendo solo 'all' nel nome e nessun anno;
