@@ -1,0 +1,177 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url(../resources/viniitalianiImage.jpg);
+}
+
+.error-text {
+    text-align: center;
+    color: red;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+/* Header css ------------------ */
+.headerDiv {
+    display: flex;
+    height: 30px;
+    width: 95vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.headerDivName {
+    display: flex;
+    flex: 1 1 0%;
+}
+
+.headerDivLogo {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1 0%;
+}
+
+.headerDivLogo img {
+    width: 120px;
+}
+
+
+/* Intro css -------------------- */
+
+.mainDiv {
+    width: 350px;
+    height: 450px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    margin: 10vh auto;
+}
+
+.buttonsDiv {
+    display: flex;
+    flex-direction: row;
+    height: 15%;
+}
+
+.formDiv {
+    height: 85%;
+    background: linear-gradient(to right bottom, rgb(101, 207, 174), rgba(157, 245, 218, 0));
+}
+
+#loginButton {
+    width: 50%;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    background: rgb(162, 186, 6);
+    outline: none;
+}
+
+#subscribeButton {
+    width: 50%;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    background: rgb(162, 186, 6);
+    outline: none;
+}
+
+.formLogin {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.usernameDiv {
+    position: relative;
+    flex: 1 1 0%;
+}
+
+.passwordDiv {
+    position: relative;
+    flex: 1 1 0%;
+}
+
+#username {
+    position: absolute;
+    top: 40%;
+    bottom: 40%;
+    left: 20%;
+    right: 20%;
+    z-index: 2;
+    padding: 10px 0px 0px;
+    margin: 0px;
+    background: rgba(255, 0, 0, 0);
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+}
+
+.label-username {
+    position: absolute;
+    top: 40%;
+    bottom: 40%;
+    left: 20%;
+    right: 20%;
+    z-index: 1;
+    justify-content: flex-end;
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+}
+
+#password {
+    position: absolute;
+    top: 20%;
+    bottom: 60%;
+    left: 20%;
+    right: 20%;
+    z-index: 2;
+    padding: 10px 0px 0px;
+    margin: 0px;
+    background: rgba(255, 0, 0, 0);
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+}
+
+.label-password {
+    position: absolute;
+    top: 20%;
+    bottom: 60%;
+    left: 20%;
+    right: 20%;
+    z-index: 1;
+    justify-content: flex-end;
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+}
+
+.label-username .content-loginInput,
+.label-password .content-loginInput {
+    display: inline-block;
+    transition: transform 0.25s linear 0s;
+}
+
+#username:focus + .label-username .content-loginInput,
+#username:valid + .label-username .content-loginInput,
+#password:focus + .label-password .content-loginInput,
+#password:valid + .label-password .content-loginInput {
+    transform: translateY(-20px);
+}
+
+#submitLogin {
+    width: 80px;
+    height: 30px;
+    align-self: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    background: rgb(162, 186, 6);
+}

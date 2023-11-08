@@ -1,0 +1,297 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle, rgba(19, 237, 201, 0.25), rgba(15, 219, 185, 0.5), rgba(8, 201, 176, 1));
+}
+
+.error-text {
+    text-align: center;
+    color: red;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: 'Arial';
+    -webkit-animation: errorFade 4s linear forwards;
+    -moz-animation: errorFade 4s linear forwards;
+}
+
+@keyframes errorFade {
+    from{
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        display: none;
+        pointer-events: none;
+    }
+}
+
+/* Header css ------------------ */
+
+.headerDiv {
+    display: flex;
+    height: 30px;
+    width: 95vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.headerDivName {
+    display: flex;
+    flex: 1 1 0%;
+}
+
+.headerDivLogo {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1 0%;
+}
+
+.headerDivLogo img {
+    width: 120px;
+}
+
+/* userPageHeader css ------------------ */
+
+.upH {
+    display: flex;
+    width: 95vw;
+    height: 50px;
+    margin: auto;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.upHForm {
+    display: flex;
+    flex: 1;
+    margin: 0px 10px;
+}
+
+.upHForm-content {
+    margin: 0 3px;
+}
+
+.upHForm-submit {
+    margin: 0 10px;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.dropSpan {
+    display: inline-block;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.dropSpan p {
+    font-size: 1.2em;
+    border-bottom: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background: rgba(240, 240, 240, 0.5);
+    padding: 10px;
+}
+
+.dropdown-content a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 0.9em;
+    color: black;
+    text-decoration: none;
+    padding: 3px 0 3px 0;
+    position:relative;
+}
+
+.dropdown-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 3px;
+}
+
+#bottles-in-cart {
+    position: absolute;
+    font-size: 10px;
+    transform: translate(8px, -8px);
+}
+
+.dropdown-content a:hover {
+    background: rgb(220, 220, 220);
+}
+
+.dropdown:hover .dropSpan {
+    background: rgb(21, 176, 163);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* userPage css ------------------ */
+
+main {
+    width: 95vw;
+    margin: auto;
+}
+
+/* homepage css ------------------ */
+
+.homepage-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homepage-div-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homepage-img {
+    display: block;
+    width: 200px;
+    -webkit-animation: homeImgAnimation 5s linear 1 forwards;
+}
+
+.homepage-img-popper {
+    display: block;
+    margin: 0px 130px;
+    width: 280px;
+    -webkit-animation: homePopperAnimation 5s linear 1 forwards;
+}
+
+@keyframes homeImgAnimation {
+    0% {
+        transform: translateY(80px);
+        opacity: 0;
+    }
+    15%{
+        transform: translateY(0px);
+        transform: rotate(10deg);
+        opacity: 1;
+    }
+    30%{
+        transform: translateY(0px);
+        transform: rotate(-10deg);
+        opacity: 1;
+    }
+    45%{
+        transform: translateY(0px);
+        transform: rotate(10deg);
+        opacity: 1;
+    }
+    60%{
+        transform: translateY(0px);
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    95%{
+        transform: translateY(0px);
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    100%{
+        /*display: none;
+        pointer-events: none;
+        opacity: 0;*/
+        opacity: 1;
+    }
+}
+
+@keyframes homePopperAnimation {
+    0%{
+        opacity: 1;
+    }
+    95%{
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        display: none;
+        pointer-events: none;
+    }
+}
+
+/* search css --------------------- */
+
+.search-section {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.wine-div {
+    display: flex;
+    width: 185px;
+    border: 1px solid black;
+    margin: 10px;
+    background: rgb(173, 50, 81);
+}
+
+.wine-label {
+    display: flex;
+    width: 66%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.wine-label p {
+    word-break: break-all;
+    font-size: 0.9em;
+}
+
+.wine-div hr {
+    display: block;
+    width: 90%;
+    border-style: inset;
+    border: 1px solid black;
+}
+
+.wine-qty-list {
+    width: 35px;
+}
+
+/* cart css ----------------------- */
+
+.cart-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-div {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    align-items: center;
+    margin: 2px 0px;
+}
+
+.cart-button {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgb(147, 149, 150);
+    margin: 3px;
+    outline: none;
+}
+
+.cart-div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
