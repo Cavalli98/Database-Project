@@ -11,13 +11,6 @@ Softwares and Programming languages used:
 - PHP
 - SQL
 
--------------------------------------------------
-
-System is also available at (not available anymore):
-https://lavineria.000webhostapp.com/
-
--------------------------------------------------
-
 The only field to modify are in 'connect.php', which contains the connection variable by procedural method 
 
 Use of the system with local server:
@@ -29,23 +22,23 @@ Local Server Setup:
 5) Access the website at http://localhost/Database-Project/index.php
 
 Use of the system:
-1) eseguire l'accesso tramite username e password o iscriversi al sito.
-   Ci sono già alcuni utenti predefiniti nel sistema, fra cui:
+1) log in with username and password or register on the site.
+   There are already some predefined users in the system, including:
    username: prova@finale.it passw: provafinale;
-2) Una volta arrivati nella pagina principale del client, si può:
-   -cercare i vini per nome, per nome e anno, per anno (inserendo nel nome 'all'), 
-    oppure vedere tutto il catalogo inserendo solo 'all' nel nome e nessun anno;
-   -guardare la propria Cronologia acquisti ('History'), il proprio carrello ('Cart'),
-    andare alla homepage ('Home') o eseguire il logout;
-3) Per comprare dei vini, una vola cercati, basta selezionare il numero dal menù a tendina
-   e aggiungerli al carrello, per poi andare nel carrello e premere 'Buy'.
-   Ogni 'add' aggiunge solo i vini della propria casella.
-   SI PUO' IN OGNI MOMENTO CONTROLLARE IL NUMERO TOTALE DI BOTTIGLIE PRESENTI NEL CARRELLO
-   SEMPLICEMENTE POSIZIONANDO IL CURSORE SOPRA LA SCRITTA 'Main' E GUARDANDO IL NUMERO 
-   PRESENTE NELLA ICONA DEL CARRELLO.
-   Il database non filtra le inserzioni nel carrello, il cui compito è svolto nel momento di
-   comprare i vini e notificato all'utente se esso è stato disattento ed ha aggiunto più
-   volte lo stesso vino.
-   Il sistema farà comunque comprare al massimo il numero di bottiglie disponibili,
-   notificandolo all'utente.
-4) Tramite il tasto 'Clear Cart' si svuota il carrello.
+2) Once on the main client page, you can:
+   -search the wines by name, by name and year, by year (by entering ‘all’ in the name), 
+    or view the entire catalogue by entering only ‘all’ in the name and no year;
+   -look at your purchase history (‘History’), your cart (‘Cart’),
+    go to the homepage (‘Home’) or log out;
+3) To buy wines, once searched, simply select the number from the drop-down menu
+   and add them to the cart, then go to the cart and press ‘Buy’.
+   Each ‘add’ only adds the wines in your box.
+   YOU CAN AT ANY TIME CHECK THE TOTAL NUMBER OF BOTTLES IN YOUR CART
+   SIMPLY PUSHING THE CURSOR ABOVE THE ‘Main’ SCREEN AND LOOKING AT THE NUMBER 
+   IN THE CART ICON.
+   The database does not filter the listings in the cart, which is done at the time of
+   buying wines and notifies the user if they have been careless and have added the same wine several
+   times the same wine.
+   The system will still make the user buy the maximum number of bottles available,
+   notifying the user.
+4) The ‘Clear Cart’ button is used to empty the cart.
